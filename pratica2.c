@@ -10,5 +10,9 @@ int main(void){
 
     printf("Var= %f\nponteiro= %p", var, p);
 
+    *p = 3.8;
+    
+    printf("\nVar= %f\nponteiro= %p", var, p);
+
     return 0;
 }
